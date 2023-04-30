@@ -1,0 +1,183 @@
+u/DSwithDaniel Beginner:
+Augmented operators (+=, *= etc)
+Basic error reading
+Documentation + Stack Overflow
+
+Intermediate:
+Repo setup
+PEP8
+Linting
+CONSTANTS
+f-strings
+Try/Except/exception handling
+JSON
+Libraries: JSON
+Context managers
+Libraries: PILLOW
+Namedtuple
+Classes + Instance's
+
+Pip
+Data Structure: Arrays
+Libraries: Pandas
+Data Structure: DataFrame
+Libraries: Matplotlib
+
+Advanced:
+
+Profilers
+Truthy and Falsey
+
+
+dataclass
+
+Logging
+
+
+
+Raise Errors + assertions
+
+Operator overloading
+
+List comp
+
+Dict/Set comp
+
+Regex
+
+
+
+Private/Public variables
+
+Data Structure: Linked Lists
+
+Classes: Inheritance
+
+Classes: Composition
+
+Expert:
+
+Closures
+
+Higher Order Functions
+
+Righthand operator overloading
+
+Generators + yield. Gen comp
+
+Abstract base class
+
+Stacks/Queues/Dequeues
+
+Advanced git
+
+Decorators/nested functions
+
+Godly:
+
+Currying and Partial Functions
+
+Nested Classes
+
+Design Patterns
+
+Async, await, threads
+
+MRO
+
+Meta-programming
+
+Hashtable
+
+C libraries
+
+Using Word as your IDE
+
+----------------------
+Completed:
+Downloading Python
+
+Setting up your IDE
+
+Print(“hello world”)
+
+Executing Scripts (Via IDE)
+
+Executing Scripts (Via CLI)
+
+
+
+Syntax
+
+Variables
+
+Arithmetic
+
+Input
+
+Data Structure: Strings
+
+Data Structure: Lists
+
+Data Structure: Tuples
+
+Data Structure: Dictionaries
+
+Data Structure: Sets
+
+Commenting
+
+
+Pseudocode
+
+Casting
+
+Bool
+
+Control Flow: Conditions
+
+Control Flow: For Loops
+
+Control Flow: While Loops
+
+
+Functions: With return
+
+Functions: With side effects
+
+Importing Libraries
+
+File Handling /Paths
+
+Reserved words
+
+Intermdeiate:
+
+Virtual Environments
+Using Notebooks
+
+
+
+Mutability/immutability: Lists vs Tuples vs Strings
+
+Functions: pass
+
+Functions: Args, Kwargs
+
+Lambdas
+
+
+Nested dicts, lists, sets
+
+Import: From, as
+
+Advanced:
+Recursion
+if name == ‘main’
+Iterators
+*unpacking
+Typehinting == > Annotations.
+
+Command line arguments with argparse
+
+Expert:

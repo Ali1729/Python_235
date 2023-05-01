@@ -1,0 +1,11 @@
+What is Indentaion in python.
+Why do we use Indentation.
+what is mean by readability.
+
+
+# to do 
+
+Installation of python.
+Installation of VS code.
+Installation of Jupyter notebook plugin in VSCODE.
+

@@ -1,0 +1,110 @@
+Hierarchy
+
+    1. Programs are composed of modules.
+    2. Modules contain statements.
+    3. Statements contain expressions.
+    4. Expressions create and process objects.
+
+Python is a dynamically typed language.
+    What is dynamically typed language.
+    What is the use of having dynamically typed language.
+    what are the problems of having a dynamically typed language.
+
+
+
+Built-in objects make programs easy to write. 
+Built-in objects are components of extensions
+Built-in objects are often more efficient than custom data structures.
+Built-in objects are a standard part of the language.
+
+Numbers.
+
+    Number related modules.
+        random
+        random.choice([1,2,3,4])
+        random.random()
+        random.randint()
+
+    Number Operators.
+        Division operator. (classic division and floor division)
+        % operator.
+
+        Comparison operators
+
+    Number related modules.
+       math modules.
+       Math.floor()
+       math.trunc()
+
+
+lists and strings I
+    Only introduction 
+    length
+
+    empty
+
+
+Variables:
+    Shared references.
+    id 
+
+
+
+Strings II
+    double quotes
+    single quotes
+    escape sequences
+    raw strings
+    concatenate two strings
+    repeat
+
+    index, slice
+    str.find(a)
+
+
+
+
+Two kind of functions you see
+
+
+Lists II
+    Ordered collections of arbitrary objects
+    Accessed by offset
+    Variable-length, heterogeneous, and arbitrarily nestable
+    Mutable.
+
+
+    L * 3
+    for x in L: print(x)
+    3 in L
+    Iteration, membership
+    L.append(4)
+    L.extend([5,6,7])
+    L.insert(i, X)
+    Methods: growing
+    L.index(X)
+    L.count(X)
+    Methods: searching
+    L.sort()
+    L.reverse()
+    L.copy()
+    L.clear()
+    Methods: sorting, reversing,
+    copying (3.3+), clearing (3.3+)
+    L.pop(i)
+    L.remove(X)
+    del L[i]
+    del L[i:j]
+    L[i:j] = []
+    Methods, statements: shrinking
+    L[i] = 3
+    L[i:j] = [4,5,6]
+    Index assignment, slice assignment
+    L = [x**2 for x in range(5)]
+    list(map(ord, 'spam'))
+
+
+Excercies
+1. Write a Python program that declares two variables, "x" and "y", and assigns them values of 5 and 3, respectively. Then, using math operations, print out the result of "x" raised to the power of "y".
+2. reverse of a string
+3. Capitalize first letter in each word of a given string.

@@ -2,6 +2,9 @@
 
 Attribute Fetches. (list.lenght())
 Call Expressions. (sum(list))
+
+unpacking of elements.
+
 Lists II
     Ordered collections of arbitrary objects
     Accessed by offset
@@ -15,9 +18,11 @@ Tuples:
     Arrays of object references
 
     Tuples vs lists.
+
+
     
 Dictionaries:
-
+    Unorderded key value pairs
 
 
 Excercises:
@@ -30,7 +35,9 @@ Excercises:
 
     6. create list of 10 items and slice from 5 to 6th position.
 
-    7. 
+    7. Create a tuple containing the names of the days of the week. Print the tuple, and then print the third element of the tuple.
+
+    8. Create a tuple containing the values 1, 2, and 3. Unpack the tuple into three variables, and then print the variables.
 
 Questions:
    1. str.replace vs list.append

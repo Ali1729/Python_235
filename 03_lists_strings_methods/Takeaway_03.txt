@@ -1,39 +1,24 @@
 
+
+Attribute Fetches. (list.lenght())
+Call Expressions. (sum(list))
 Lists II
     Ordered collections of arbitrary objects
     Accessed by offset
     Variable-length, heterogeneous, and arbitrarily nestable
     Mutable.
 
+Tuples:
+    Ordered collections of arbitrary objects
+    Of the category “immutable sequence”
+    Fixed-length, heterogeneous, and arbitrarily nestable
+    Arrays of object references
 
-    L * 3
-    for x in L: print(x)
-    3 in L
-    Iteration, membership
-    L.append(4)
-    L.extend([5,6,7])
-    L.insert(i, X)
-    Methods: growing
-    L.index(X)
-    L.count(X)
-    Methods: searching
-    L.sort()
-    L.reverse()
-    L.copy()
-    L.clear()
-    Methods: sorting, reversing,
-    copying (3.3+), clearing (3.3+)
-    L.pop(i)
-    L.remove(X)
-    del L[i]
-    del L[i:j]
-    L[i:j] = []
-    Methods, statements: shrinking
-    L[i] = 3
-    L[i:j] = [4,5,6]
-    Index assignment, slice assignment
-    L = [x**2 for x in range(5)]
-    list(map(ord, 'spam'))
+    Tuples vs lists.
+    
+Dictionaries:
+
+
 
 Excercises:
 
@@ -46,3 +31,8 @@ Excercises:
     6. create list of 10 items and slice from 5 to 6th position.
 
     7. 
+
+Questions:
+   1. str.replace vs list.append
+   2. unordered element vs ordered element, explain with example.
+   3

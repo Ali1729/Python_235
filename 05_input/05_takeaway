@@ -1,0 +1,22 @@
+input
+
+Command line arguments.
+
+Program execution flow
+
+casting.
+
+Introduction to double underscore variables and methods.
+
+
+Line Breaking
+
+Automatic Line Breaking
+
+Passing aguments  to functions
+
+Scope of variables.
+
+LEGB Rule
+
+new_list = [expression for item in old_list if condition]

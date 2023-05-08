@@ -1,0 +1,1 @@
+print(get_area(6,2))

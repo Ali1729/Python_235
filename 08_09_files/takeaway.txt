@@ -1,0 +1,16 @@
+Converting a list to string values using join function.
+
+reading files.
+writing files.
+fp = open(file)
+with open()
+
+parsing csv file without module.
+Parsing csv file with csv module.
+Parsing a json file .
+Parsing a csv file with pandas library
+
+List comprehension 
+Lambda
+
+Reciepts project.

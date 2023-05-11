@@ -1,0 +1,29 @@
+Modules
+---------
+Organizing code.
+Representing data with real time .
+------
+from XXX import XX as X
+-----------
+__name__
+
+add function , with tester function.
+---------
+what is __init__.py
+
+-------
+Data hiding using Modules
+from __future__ import 
+
+from __future__ import annotations
+
+
+-------------Virtual environments.
+Virtual environment need
+
+python -m venv c:\path\to\myenv
+bin/activate
+
+Excercises:
+12: Create a calculator module and utilize from different python file.
+    calculator module should have functions like , add, subtract , multiply and divide of two numbers

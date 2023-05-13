@@ -1,0 +1,2 @@
+ create mode 100644 Lib/site-packages/setuptools/gui-32.exe
+ create mode 100644 Lib/site-packages/setuptools/gui-64.exe

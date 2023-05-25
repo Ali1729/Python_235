@@ -7,8 +7,19 @@ from scraping1 import *
 base_url = "https://github.com/topics/"
 git_base_url="https://github.com"
 
-def func1(topic_urls):
-    for topic_name,topic_url in zip(topic_names,topic_urls):
+topic_urls = ['https://github.com/topics/3d']
+topic_names = ['3d']
+
+
+    
+def copy_topic_to_csv(topic_url: str,topic_name:str)-> bool :
+    """_summary_ : in the topic, this function will get all the project names, stars and stores into topic_name.csv file
+
+    Args:
+        topic_url (_type_): URL of the topic from github
+        topic_name (_type_): name of the topic , this will be used to store csv files.
+    """
+    try:
         print(topic_url)
 
         response = requests.get(topic_url)
@@ -37,10 +48,18 @@ def func1(topic_urls):
 
         stars =[]
         for i in star_details:
-            stars.append(int(re.sub(r'[^0-9]','',i.get("title"))))
+            # stars.append(int(re.sub(r'[^0-9]','',i.get("title"))))
+            stars.append(i.getText())
 
         # print(username_names,project_urls,stars)
-
+        try:
+            if len(username_names) <=1 or len(project_urls) <=1 :
+                raise IndexError
+                
+        except Exception as e:
+            print("empty list")
+            return False
+        
         project_dict = {"username_names":username_names,
                     "project_urls":project_urls,
                     "stars":stars}
@@ -48,8 +67,13 @@ def func1(topic_urls):
         project_df =pd.DataFrame(project_dict)
 
         project_df.to_csv(topic_name+".csv",index=False)
+    
+    except Exception as e:
+        print("Excepiton occured in copy_topic_to_csv")
 
+    return True
 
+if __name__ == '__main__':
 
-
-func1(topic_urls)
+    for topic_name,topic_url in zip(topic_names,topic_urls):
+        copy_topic_to_csv(topic_url,topic_name)
